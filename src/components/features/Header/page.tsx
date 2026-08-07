@@ -42,7 +42,7 @@ export default function Header({ userName = 'Mallaury' }: HeaderProps) {
   ];
 
   return (
-    <header className="w-[90%] mx-auto mt-2 p-1.5 rounded-xl bg-[#FFF5EE] border-b border-[#E5C4B4] shadow-xs sticky top-0 z-50">
+    <header className="w-[90%] mx-auto mt-2 p-1.5 rounded-xl bg-[#FFF5EE] border-b border-[#E5C4B4] shadow-xs sticky top-0 z-50 mb-28">
       <div className="max-w-6xl rounded-xl mx-auto border-[0.12rem] border-[#E5C4B4] border-dashed flex items-center justify-between relative">
 
         {/* Logo / Nom de l'app */}

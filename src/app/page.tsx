@@ -1,4 +1,4 @@
-import DashboardPage from "@/components/features/Dashboard/page";
+import DashboardPage from "@/components/features/Dashboard/DashboardPage";
 import Header from "@/components/features/Header/page";
 import Image from "next/image";
 
