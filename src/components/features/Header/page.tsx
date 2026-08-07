@@ -27,8 +27,15 @@ export default function Header({ userName = 'Mallaury' }: HeaderProps) {
       name: "Profil",
       href: "/profile",
       icon: "👤",
-      isActive: true,
+      isActive: false,
       ariaLabel: "Accéder au profil"
+    },
+    {
+      name: "Bilan",
+      href: "/bilanbank",
+      icon: "📊",
+      isActive: true,
+      ariaLabel: "Accéder au bilan financier"
     }
   ];
 
